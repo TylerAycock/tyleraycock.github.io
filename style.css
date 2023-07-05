@@ -1,0 +1,18 @@
+#skills{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: auto;
+    text-align: center;
+}
+
+#skill-container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
