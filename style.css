@@ -57,6 +57,7 @@ nav a:hover{
     text-decoration: underline;
     transition: all .2s ease-in-out;
     transform: scale(1.2);
+    cursor: pointer;
 }
 
 
@@ -158,11 +159,21 @@ img{
 
 /* projects */
 
+
 video{
    height: 400px; 
    width: 600px;
 }
+#link{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    margin-top: 10px;
+}
 
+#link:hover{
+    text-decoration: underline;
+}
 
 /* contact secetion */
 .contact a {

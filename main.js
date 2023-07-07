@@ -36,7 +36,8 @@ let views = {
     <h2>Projects</h2>
     <h3>Campsite Reservation App</h3>
     <video src="./images/capstone_pt1.mov" controls type="video/mp4"></video>
- </section>
+    <a id="link" href="https://github.com/TylerAycock/capstone_proj"><p>GitHub</p></a>
+</section>
 `
 }
 
@@ -54,7 +55,7 @@ links[i].addEventListener('click', changeView)
 }
 
 const pageLoad = () => {
-main.innerHTML = views['about-link']
+main.innerHTML = views['projects-link']
 }
 
 pageLoad()
