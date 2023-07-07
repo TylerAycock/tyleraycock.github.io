@@ -1,8 +1,15 @@
 let views = {
 'about-link': `
 <section id="about">
-    <h2>About</h2>
-    <p id="intro">I'm a Southern California based web developer and recent graduate of the DevMountain coding bootcamp. Through this accelerated four month program, I honed my skills as a full stack web developer. When I'm not coding, you can find me outisde enjoying the beautiful SoCal weather either surfing or cycling.</p>
+    <div class="about">
+        <h2>About</h2>
+        <p id="intro">I'm a Southern California based web developer and upcoming graduate of the DevMountain coding bootcamp. Through this accelerated four month program, I honed my skills as a full stack web developer. When I'm not coding, you can find me outisde enjoying the beautiful SoCal weather either surfing or cycling.</p>
+    </div>
+    <div class="contact">
+        <a  id="linkdin" href="https://www.linkedin.com/in/tyler-aycock-2b2191a8/" target="blank"><img src="./images/linkdin.png" alt="linkdin logo"></a>
+        <a  id="github" href="https://github.com/TylerAycock" target="blank"><img src="./images/github-mark.png" alt="github logo"></a>
+        <a  id="email" href="mailto:Tyler.Joseph.Aycock@gmail.com" target="blank"><img src="./images/gmail.png" alt="gmail logo"></a>
+    </div> 
 </section>
 `,
 'skills-link': `
@@ -10,7 +17,7 @@ let views = {
     <h2>Skills</h2>
     <div id="skill-container">
         <div class="skill">
-            <img src="./images/html.png" alt="html logo">
+            <img  src="./images/html.png" alt="html logo">
             <p>HTML</p>
         </div>
         <div class="skill">
@@ -30,16 +37,6 @@ let views = {
     <h3>Campsite Reservation App</h3>
     <video src="./images/capstone_pt1.mov" controls type="video/mp4"></video>
  </section>
-`,
-'contact-link': `
-  <section id="contact">
-        <h2>Contact me</h2>
-        <ul class="contact">
-            <li><a href="https://www.linkedin.com/in/tyler-aycock-2b2191a8/" target="blank">LinkedIn</a></li>
-            <li><a href="https://github.com/TylerAycock" target="blank">GitHub</a></li>
-            <li>email: tyler.joseph.aycock@gmail.com</li>
-        </ul>
-  </section>
 `
 }
 
