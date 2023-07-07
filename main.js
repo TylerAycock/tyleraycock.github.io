@@ -28,7 +28,7 @@ let views = {
 <section id="projects">
     <h2>Projects</h2>
     <h3>Campsite Reservation App</h3>
-    <video src="../capstone/capstone_pt1.mov" controls type="video/mp4"></video>
+    <video src="./images/capstone_pt1.mov" controls type="video/mp4"></video>
  </section>
 `,
 'contact-link': `
