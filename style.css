@@ -1,18 +1,156 @@
+:root{
+    --header-height: 75px;
+    --main-height: calc(100vh - var(--header-height))
+}
+
+/* nav bar */
+h1{
+    float: left;
+    font-size: 3.5em;
+    font-weight: bold;
+    padding-left: 20px;
+    color: transparent;
+    background-image: linear-gradient(to left,#41BBD9, #1a7890);
+    background-clip: text;
+    -webkit-background-clip: text;
+    padding-right: 10px;
+}
+
+h2{
+    font-size: 3em;
+}
+
+h3{
+    font-size:  2em;
+    text-decoration: underline;
+}
+
+#headshot{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: var(--header-height);
+    background-color: #FFECD1;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    padding-right: 25px;
+    gap: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    transition: all .2s ease-in-out;
+    transform: scale(1.2);
+    text-decoration: underline;
+    transition: all .2s ease-in-out;
+    transform: scale(1.2);
+}
+
+
+
+main{
+    height: var(--main-height);
+    background-color: #41BBD9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start
+}
+
+section{
+    width: 100%;
+    text-align: start;
+    padding-left: 15px;
+}
+
+section h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+/* about section */
+#intro{
+    font: 1em sans-serif;
+}
+
+/* skills section */
+
 #skills{
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 100%;
     height: auto;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 #skill-container{
     display: flex;
-    gap: 10px;
+    width: 100%;
     justify-content: center;
+    gap: 75px;
+}
+
+.skill{
+    border: 5px solid #ffd700;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: x-large;
+    box-shadow: 3px 3px 3px gray;
 }
 
 img{
     height: 100px;
     width: 100px;
 }
+
+#js{
+    width: 150px;
+}
+
+/* projects */
+
+video{
+   height: 400px; 
+   width: 600px;
+}
+
+
+/* contact secetion */
+.contact a {
+    text-decoration: none;
+    color: black;
+}
+
+.contact li a:hover{
+    text-decoration: underline;
+    transition: ease-in-out;
+    font-size: large;
+}
+
+.contact li {
+    list-style-type: circle;
+    text-align: left;
+    padding: 10px;
+}
+
+
